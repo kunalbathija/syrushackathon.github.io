@@ -1,0 +1,33 @@
+
+.pre-loader-1{
+    color:#fff;
+    width:100%;
+}
+
+.ml15 {
+    background-color: #000 !important ;
+    font-weight: 800;
+    font-size: 4em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    width: 100%;
+    height: 120vh;
+    z-index: 999999999;
+    position: fixed;
+    top: 0;
+    left: 0
+}
+
+.ml15 .word {
+    display: inline-block;
+    line-height: 1em;
+    padding-top: 9vh
+}
+
+.logo_whiteBox{
+    display: inline-block;
+    padding-top: 25vh;
+    max-width: 30vw;
+    max-height: 35vh;
+}
+

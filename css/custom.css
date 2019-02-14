@@ -1,0 +1,856 @@
+/* General */
+@import "https://fonts.googleapis.com/css?family=Montserrat";
+
+#content {
+    padding : 0px !important;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.web-section {
+    padding: 4em 3em !important;
+}
+
+.no-pad-bot {
+    padding-bottom: 0px !important;
+}
+
+.no-pad-up {
+    padding-top: 0px !important;
+}
+
+.space--xs .container h2 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif !important;
+    border-bottom: 1px solid #c1c1c1;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #3e3e3e;
+}
+
+.heading-BMU {
+    padding-bottom: 30px !important;
+    padding-top: 3.71428571em !important;
+}
+
+/* navigation bar */
+
+.navbar {
+    z-index: 1000;
+    max-height: 12vh !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.btn-info {
+    background-color: #4A90E2 !important;
+}
+
+.btn-info:hover {
+    background-color: #272E71 !important;
+}
+
+.btn-navCollapse {
+    margin-bottom: 0px !important;
+}
+
+#dismiss {
+    background: #272E71 !important;
+}
+
+.btn-sideBar {
+    padding: 5px 20px !important;
+    font-size: 15px !important;
+}
+
+.nav-iconCustom {
+    font-size: 26px;
+    margin-bottom: 0px;
+    color: #555;
+}
+
+.nav-item {
+    padding: 0px 8px !important;
+}
+.nav-item a {
+    text-decoration: none;
+}
+
+.nav-icons-links:hover{
+    background: #4A90E2 !important;
+}
+.nav-icons-links:hover{
+    color:#f1f1f1 !important;
+}
+
+
+#sidebar {
+    z-index: 2000 !important;
+}
+
+#sidebar ul.components {
+    border-bottom: 1px solid #fff !important;
+    border-top: 1px solid #fff !important;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #2f4499 !important;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    background: #2f4499 !important;
+
+}
+.main-container {
+    margin-top: 8vh;
+}
+
+
+/* Home banner */
+.Home-logo {
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 220px;
+    max-height: 220px;
+}
+
+.Home-para1{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 300;
+    line-height:1.5em ; 
+    line-height: 0.9em ;
+}
+.Home-para2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 0.17em;
+    margin-bottom: 0.17em !important
+}
+p.lead.Home-para3{
+    text-align: center;
+    color: #fff !important;
+    font-weight: 700;
+    margin-bottom: 0em !important;
+    font-family: sans-serif;
+}
+.Home-para4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400 ;
+}
+p.lead.Home-para1{
+    margin-bottom: 0px !important;
+}
+.imageholder{
+    min-height:90vh;
+    background-image: url(../images/background1.png) !important;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.blackdrop{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 12vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;   
+    opacity: .15;
+}
+
+@media only screen and (max-width: 768px) {
+    .imageholder{
+        min-height:90vh;
+        background-image: url(../img/5.jpg) !important;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    .main-container {
+        margin-top: 10vh;
+    }
+    .imagebg{
+        padding:0em;
+    }
+    .Home-para1{
+        font-size:36px ;
+        margin-bottom:0.2em !important;
+    }
+    .Home-para2{
+        font-size:20px ;
+        margin-top:10px;
+        margin-bottom:5px;
+        display: none;
+    }
+    .Home-logo {
+        max-width: 150px;
+        max-height: 150px;
+        margin-top: 90px;
+        margin-bottom:30px !important;
+    }
+    .Home-para3{
+        font-size:18px;
+        line-height: 1em;
+        margin-top: 25px;
+    }
+    .Home-reponsive{
+        margin-top: 10vh;
+    }
+
+    .Home-para4 {
+        margin-top: 25px;
+        margin-bottom: 15px !important;
+    }
+
+    .web-section {
+        padding: 2em 1em !important;
+    }
+    
+    #navbarSupportedContent {
+        background: #f1f1f1;
+        width: 100vw !important;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-left: 10px;
+    }
+
+    .blackdrop {
+        top: 0vh;
+    }
+}
+
+
+
+/* About HackBMU */
+.content-title
+{
+    padding-top: 0px;
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif !important;
+    border-bottom: 1px solid #c1c1c1;
+    color: #3e3e3e;
+    width: auto;
+    margin-right: 1%;
+}
+
+.sub_heading
+{
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 0 30px 0;
+  padding-bottom: 10px;
+  font-family: "Roboto Condensed",sens-serif;
+}
+
+#about-bg-diag
+{
+  width: 100%;
+  height: 100%;
+}
+
+#about-bg-diag img{
+    width: 300px;
+    height: 300px;
+    margin-top: 15%;
+}
+
+
+@media(max-width:767px)
+{
+  #about-bg-diag
+  {
+      padding: 0% 10% !important;
+  }
+
+  #About {
+    padding-top: 0px !important;
+  }
+
+}
+
+
+
+
+/* Past Sponsers */
+
+.pastSponser_img img{
+    width: 100%;
+    height: 100%;
+}
+.pastSponser_bodycont{
+    /*background: #F2F0E9;*/
+    padding:50px 10vw;
+    margin-bottom: 100px;
+    padding-top: 0px;
+}
+
+.pastSponser_imgcont{
+    width: 80vw;
+    min-height: 110px;
+}
+
+.pastSponser_img {
+    transition: transform .2s;
+}
+
+
+.pastSponser_img{
+    padding: 20px;
+    width: 15%;
+    float: left;
+    margin: 5px;
+    border-radius: 10%;
+    min-width: 80px;
+    min-height: 62px;
+}
+.pastSponser_img:hover{
+    box-shadow: 0px 0px 15px #d1ccca;
+    transform: scale(1.01);
+}
+
+#PastSponsersHeading {
+    padding-top: 4em !important;
+    padding-bottom: 1em !important;
+}
+
+@media screen and (max-width: 719px) {
+  .pastSponser_img {
+    min-width:35vw;
+    padding: 10px;
+  }
+
+  .pastSponser_bodycont {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+  }
+
+  #PastSponsers {
+    padding-bottom: 0px !important;
+  }
+
+  .pastSponser_imgcont {
+    min-height: 0%;
+  }
+
+  /*.pastSponser_img:not(.pastSponser_hide) {
+    display: none;
+  }*/
+  #pastSponser_BTN_hide{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 719px) {
+    .pastSponser_btn {
+        display: none;
+    }
+}
+
+/* Prizes */
+#mu-pricing{
+    padding-top: 0px !important;
+    padding-bottom: 1em !important;
+}
+#mu-pricing{
+    background-color: #f8f8f8;
+    display: inline;
+    float: left;
+    width: 100%;
+}
+.mu-pricing-area {
+    display: inline;
+    float: left;
+    padding: 20px 0;
+    width: 100%;
+}
+.mu-title-area {
+    display: inline;
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+@media (max-width: 640px){
+    .mu-title-area {
+        padding: 0;
+    }
+}
+.mu-title {
+    color: #1c1b1b;
+    margin-bottom: 0px;
+    padding: 0;
+    z-index: 10;
+    text-transform: capitalize;
+}
+.mu-pricing-conten {
+    display: inline;
+    float: left;
+    margin-top: -7px;
+    width: 100%;
+}
+@media (max-width: 991px){
+    .mu-pricing-conten {
+        padding: 0 5%;
+    }
+}
+.mu-single-price {
+    margin-top: 30px;
+    text-align:center ;
+}
+.mu-single-price {
+    background-color: #ffffff;
+    display: inline;
+    float: left;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.mu-single-price:hover {
+    transform:scale(1.02);
+}
+@media (max-width: 991px){
+    .mu-single-price {
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 686px){
+    .mu-single-price {
+        min-height: 320px;
+        max-width: 280px;
+        margin-right: 30px;
+    }
+}
+    
+.mu-single-price-head {
+    color: #555;
+    display: inline;
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.mu-single-price .mu-price-title {
+    color: #555;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+/* Our Team */
+
+.feature h5{
+	font-size : 1.5em !important;
+}
+.feature:hover{
+    cursor : pointer;
+    box-shadow : 4px 4px 10px #888888;
+    border-radius: 4%;
+    transform: scale(1.03);
+}
+
+.feature {
+    transition: transform .2s;
+}
+
+.feature-8 img{
+    max-height: 9em !important
+}
+
+#OurTeam {
+    padding-bottom:10px !important;
+}
+
+#Team {
+    padding-bottom: 1em !important;
+}
+
+.feature:hover h5 {
+    color: #0575E6 !important;
+}
+
+.team-icon {
+    margin:20px;
+}
+
+#TeamHeading {
+    padding-top: 4em !important;
+    padding-bottom: 0px !important;
+}
+
+/*Our Partners*/
+
+.feature-1{
+min-height: 0 !important;
+margin-bottom: 10px !important;
+}
+
+.partnerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Rhover{
+    box-shadow: 0px 0px 0px !important;
+    border-radius: 0 !important;
+    transform: scale(1) !important;
+}
+
+#ourpartners_id{
+    padding-bottom: 0.5em !important;
+}
+
+.partnerContainer {
+    padding: 20px;
+}
+
+/* Judges */
+.judgesHack:hover {
+    box-shadow: 0px 0px 0px #fff !important;
+    transform: none !important;
+}
+.judgesHack img{
+    border-radius: 5%;
+    width: 250px;
+    height: 250px;
+    max-height: 250px !important;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+}
+
+.judgesHack img:hover {
+    transform: scale(1.05)
+}
+
+/* Gallery */
+#carouselExampleIndicators {
+    width: 80vw !important;
+    display: inline-block;
+}
+#Gallery {
+    text-align: center;
+}
+.gheading {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    #carouselExampleIndicators {
+        width: 80vw !important;
+    }
+    .content-title {
+        font-size: 28px;
+    }
+    .space--xs .container h2 {
+        font-size: 28px;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .heading-BMU {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .partnerContainer {
+        padding: 20px 40px;
+    }
+    .partnerContainer img {
+        max-height: 30vh;
+        max-width: 60vw;
+    }
+} 
+
+#DownloadBrochure {
+    background: #4A90E2;
+}
+
+#DownloadBrochure h1 {
+    color: #f1f1f1;
+}
+
+#DownloadBrochure a {
+    margin-top: 0px !important;
+    border: 1px solid #f1f1f1;
+}
+
+#Contact form {
+    line-height: 3em;
+    text-align: center;
+    padding: 10px 17px;
+}
+
+.footer-5 {
+    background: #fafafa !important;
+    box-shadow: 0px -1px 10px rgba(0,0,0,0.1) ;
+    padding-top:2.5em !important;
+    padding-bottom: 2.5em !important;
+}
+
+.footer-5 .heading-block {
+    margin-bottom: 2em;
+}
+
+
+.faq-ques
+{
+    color: 		#484848;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600; 
+    margin-bottom:0%;
+}
+
+.faq-ans
+{
+    background-color:	#f1f1f1;
+    color: 		#505050;
+    font-size: 16px;
+    font-weight: 400; 
+    margin-bottom: 2px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.faq-ol
+{
+    background-color: #ffffff;
+    color: 	#383838;
+    font-size: 18px;
+    margin-left:1%;
+    font-weight: 600; 
+    margin-top: 28px;
+}
+#faq
+{
+    margin: auto;
+    width: 100%;
+    
+}
+
+.contact-form
+{
+    margin-bottom:18px ;
+}
+
+.mu-faq-area
+{
+    background-color:#ffffff;
+}
+
+@media(max-width:800px)
+{
+  #faq
+  {
+     margin: 10px;
+  }
+
+}
+
+@media(max-width:750px)
+{
+   .contact-form {
+        margin-bottom: 18px;
+    }
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+  
+    padding: 10px;
+  }
+  
+  @media(max-width:850px)
+{
+   .contact-form {
+        margin-bottom: 18px;
+    }
+}
+
+.cta
+{
+   
+    text-align: center;
+    width: 100%;
+}
+
+@media(min-width:1500px)
+{
+    .cta{
+    text-align: center;
+    width: 100%;
+   margin-right: 0;
+    margin-left: 0;
+    }
+    #DownloadBrochure
+    {
+        margin-top: 5%;
+    }
+}
+#teamimage{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    width:100% !important;
+    height:40% !important;
+   
+}
+.imagedimension{
+ width:100vw;
+height:50vh;
+    z-index:-1;
+}
+.colortext{
+    color:#696969;
+}
+.coloricon{
+    color:#A9A9A9;
+}
+.roundimage{
+    border-radius: 50%;
+    
+}
+.borderclass{
+    border:none !important;
+}
+
+.textposition{
+    position: relative;
+    top:-50%;
+    color:#3E3E3E;
+}
+
+.countSeconds{
+    display:none;
+}
+
+#countdown_space{
+    font-size :16px !important;
+    font-weight: 600;
+    margin-top: -15px;
+}
+
+.countDiv2 {
+    display: none !important;
+}
+
+
+
+/*HackBMU Archives*/
+.heading-archives{
+    padding-bottom: 0em !important;
+    padding-top: 2em !important;
+    font-family: 'Montserrat', sans-serif;
+}
+#GalleryHeading{
+    padding-top: 2em;
+    margin-top:12vh;
+}
+
+
+.textposition{
+    position: relative;
+    top:-50%;
+    color:#3E3E3E;
+}
+.imagesize{
+    width: 300px !important;
+    height: 220px !important;
+}
+.teamImageCard {
+    background: #fafafa !important;
+}
+.teamImageCard img {
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.3);
+    margin: auto;
+    border-radius: 6%;
+    cursor: pointer;
+}
+
+.teamImageCard:hover {
+    transform: scale(1.03);
+}
+
+.mu-single-price img {
+    max-height: 150px;
+}
+
+.col-md-2 .teamImageCard .card-body {
+    margin-left: 35px !important;
+}
+/* map */
+#BMLLocation {
+    width: 100%;
+    margin-top: 5vh;
+}
+.BGAddress {
+    background: #0575E6;
+}
+.mu-venue-address {
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 10% 5%;
+    color: #fff;
+}
+.mu-venue-address h2 i {
+    margin-top: -4px;
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.mu-venue-address h4 {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.mu-venue-address p {
+    color: #fff;
+}
+@media only screen and (max-width: 768px){
+    .countdownHolder{
+        width:auto !important;
+    }
+    .logo_whiteBox {
+        padding-top: 15vh !important;
+    }
+    
+    .ml15 .word {
+        margin-left: 8vw !important;
+    }
+    .col-md-2 .teamImageCard {
+        margin-left: 20px !important;
+    }
+    .col-md-2 .teamImageCard .card-body {
+        margin-left: -10px !important;
+    }
+    .imagesize {
+        height: 300px !important;
+    }
+}
