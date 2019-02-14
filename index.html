@@ -1,0 +1,738 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!--<meta name="description" content="HackBMU 2.0 is a hackathon focused on promoting innovation, diversity and networking among all future hackers. HackBMU will be hosting participants from all over India to create hacks for an intense 30-hour session, with exciting prizes and swags for the winning team.">-->
+    <title>Syrus</title>
+    <link rel="icon" href="img/LogoV1.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/glacial-indifference" type="text/css"/>
+    <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Preloader -->
+    <link rel="stylesheet" type="text/css" href="css/preloader.css">
+    <!-- SideNavBar -->
+    <link rel="stylesheet" href="css/style3.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css">
+    <!-- Font Awesome JS -->
+    <script defer src="js/solid.js"></script>
+    <script defer src="js/fontawesome.js"></script>
+</head>
+
+<body data-smooth-scroll-offset="77">
+    <div class="pre-loader-1">
+        <h1 class="ml15" style="text-align:center;">
+            <div class="logo_whiteBox preloader-text" style="display: none">
+                <img src="img/LogoV1.png" />
+            </div>
+            <span class="word preloader-text" style="display: none">S Y</span>
+            <span class="word preloader-text" style="display: none">R U S </span>
+            <!--<span class="word preloader-text" style="display: none">2.0</span>-->
+        </h1>
+    </div>
+    
+    <div class="main-bodyContainer">
+        <div class="RotateScreen container" id="checkLoader" style="display: none">
+            <div class="rotateImageContainer text-center" style="width: 150px; height: 150px; margin: auto; margin-top:50px">
+                <img src="images/rotate-device.png" style="width: 100%; height: 100%;" alt="">
+            </div>
+            <div class="text-center" style="margin: 15px 0px;font-size: 18px"> Please rotate your device to continue.</div>
+            <div class="text-center" style="font-size: 10px"><span>We don't support portrait mode for tablets yet.
+                    Please go back to landscape mode for the best experience.</span></div>
+        </div>
+        <div class="main-bodyContainer1">
+            <div class="nav-container">
+                <div class="wrapper">
+                    <nav id="sidebar" class="">
+                        <div id="dismiss">
+                            <i class="fas fa-arrow-left"></i>
+                        </div>
+                        <div class="sidebar-header">
+                            <h3>Syrus</h3>
+                            <h5><b>14th to 16th March 2019</b></h5>
+                        </div>
+
+                        <ul class="list-unstyled components">
+                            <li class="menuItems">
+                                <a href="#Home">Home</a>
+                            </li>
+                            <li class="menuItems">
+                                <a href="#About">About</a>
+                            </li>
+                            <li class="menuItems">
+                                <a href="#GalleryHeading1">Archives</a>
+                            </li>
+                            <li class="menuItems">
+                                <a href="#PastSponsersHeading">Prizes and Rewards</a>
+                            </li>
+                            <li class="menuItems">
+                                <a href="#OurPartners">Our Partners</a>
+                            </li>
+                            <li class="menuItems">
+                                <a href="#ourTeam">Our Team</a>
+                            </li>
+                            <li class="menuItems">
+                                <a href="faq.html#faq">FAQ</a>
+                            </li>
+                            <li class="menuItems">
+                                <a href="#VESITLocation">Contact us</a>
+                            </li>
+                        </ul>
+
+                        <ul class="list-unstyled CTAs">
+                            <li>
+                                <p>Want to participate ?</p>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://goo.gl/forms/o6cF40Nd6KlhcgWW2" class="download">Register
+                                    Yourself</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://drive.google.com/file/d/1C5lAO_itg0pJClUUziOtiECiVTDmxE3g/view?usp=sharing"
+                                    class="download">Download Brochure</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                    <div id="content">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <div class="container-fluid">
+                                <button type="button" id="sidebarCollapse" class="btn btn-info btn-sideBar hidden-xs ">
+                                    <i class="fas fa-align-left"></i>
+                                </button>
+                                <p class="nav-iconCustom nav-item .visible-xs-block">
+                                    <a class="nav-link" href="index.html">Syrus</a>
+                                </p>
+                                <button class="btn btn-dark d-inline-block d-lg-none ml-auto btn-sideBar btn-navCollapse"
+                                    type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <i class="fas fa-align-justify"></i>
+                                </button>
+
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="nav navbar-nav ml-auto" data-toggle="collapse" data-target="#navbarSupportedContent"
+                                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                        <li class="nav-item">
+                                            <a class="nav-link nav-icons-links" href="#Home">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link nav-icons-links" href="#About">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link nav-icons-links" href="#GalleryHeading1">Archives</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link nav-icons-links" href="#PastSponsersHeading">Prizes</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link nav-icons-links" href="#OurPartners">Our Partners</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link nav-icons-links" href="#ourTeam">Our Team</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link nav-icons-links" href="faq.html">FAQ</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link nav-icons-links" href="#VESITLocation">Contact us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+            </div>
+            <div class="main-container navbar-collapse">
+                <section class="imagebg height-100 text-center imageholder" id="Home">
+                    <div class="background-image-holder">
+                    </div>
+                    <div class="container pos-vertical-center">
+                        <div class="row">
+                            <div class="col-md-11">
+                                <img alt="Image" class="Home-logo" src="img/LogoV1.png">
+                                <h2 style="font-family: GlacialIndifferenceRegular; font-size: 60px;">Welcome to&nbsp;Syrus !</h2>
+                                <h3 style="font-family: fantasy;font-size: 40px;">24 hours Hackathon.</h3>
+                                <br>
+                                <b><h3 style="font-family: serif;height: 20px;font-weight: 500">14<sup>th</sup> &amp; 16<sup>th </sup> March 2019, VESIT</h3></b>
+                                <br>
+                                <p class="lead Home-para4 mb-0"> Hacking Starts in</p>
+                                <div id="countdown"></div>
+                                <p id="countdown_space"></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="switchable feature-large unpad--bottom web-section no-pad-bot " id="About">
+                    <div class="container-fluid">
+                        <div class="row justify-content-around">
+                            <div class="col-md-5 col-12 text-center hidden-xs" style="margin-top: 0px !important">
+                                <div id="about-bg-diag">
+                                    <img alt="Image" src="img/LogoV1.png">
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="switchable__text">
+                                    <h2 class="content-title">About The Event</h2>
+                                    <p class="lead"> Syrus is a hackathon focused on promoting innovation, diversity
+                                        and networking among all future hackers. We will be hosting upcoming engineers
+                                        and developers for an intense 24-hour session.
+                                        <br><br>
+                                        Participants will be able to gain hands on knowledge of the present trends and quite possibly set new
+                                        ones themselves. Syrus seeks to provide a welcoming and supportive
+                                        environment to all participants to develop their skills, regardless of their
+                                        ethnicity.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="text-center space--xs heading-BMU">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 col-lg-8">
+                                <h2>Themes</h2>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="row" style="width: 80%; margin: auto;">
+                        <div class="col-md-6">
+                            <p class="lead">
+                                            <b>Societal Transformation through ICT:</b>
+                                            The impact of ICT on society is great. ICT has effected people from all walks of life. Innovative solutions to the problems in the following fields are to be found:  
+                                            <ul class="lead">
+                                                <li>Agriculture</li>
+                                                <li>HealthCare</li>
+                                                <li>Education</li>
+                                                <li>Governance</li>
+                                                <li>Transformation</li>
+                                                <li>Energy</li>
+                                            </ul>
+                                        </p>
+                        </div>
+                        <div class="col-md-6">
+                            
+                                        <p class="lead">
+                                            <b>Ethical Impact and Issues:</b>
+                                            Because of its constantly changing nature, the area of computer technology is one that is difficult to assign a specific set of moral codes, although it is necessary that ethics be considered when making decisions in this area. Computing creates a whole new set of ethical problems, unique unto itself.
+                                            Solutions to various problems like those stated below are to be found :
+                                            <ul class="lead">
+                                                <li>Consumer Ethics Management</li>
+                                                <li>Ethical Assessment in e-health</li>
+                                                <li>Ethical assessment on PO attainment</li>
+                                                <li>Ethical management on student quality through online education</li>
+                                            </ul>
+                                        </p>
+                        </div>
+                    </div>
+                </section>
+                <br>
+                <section id="DownloadBrochure" class="text-center imagebg space--xs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="cta">
+                                    <h1>Want to participate ?</h1>
+                                    <a target="_blank" class="btn btn--primary type--uppercase" href="https://goo.gl/forms/o6cF40Nd6KlhcgWW2"><span>
+                                            Register Yourself</span></a>
+                                    <a target="_blank" class="btn btn--primary type--uppercase" href="https://goo.gl/forms/o6cF40Nd6KlhcgWW2"><span>
+                                            <i class="fa fa-download"></i>
+                                            &nbsp; Download our Brochure</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="text-center space--xs heading-BMU" id="GalleryHeading1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 col-lg-8">
+                                <h2>Gallery</h2>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                  <section id="Gallery" class="no-pad-bot">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                            <!--<li data-target="#carouselExampleIndicators" data-slide-to="8"></li>-->
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100 img-fluid" src="images/carousel/1.jpg"> </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100 img-fluid" src="images/carousel/2.JPG"> </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100 img-fluid" src="images/carousel/3.jpg"> </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100 img-fluid" src="images/carousel/4.jpg"> </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100 img-fluid" src="images/carousel/5.jpg"> </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100 img-fluid" src="images/carousel/6.jpg"> </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100 img-fluid" src="images/carousel/7.jpg"> </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100 img-fluid" src="images/carousel/8.jpg"> </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </section>  
+            <section class="text-center space--xs heading-BMU" id="PastSponsersHeading">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                            <section id="mu-pricing">
+                                <div class="container" id="mu-prizes">
+                                    <div class="row" >
+                                        <div class="col-sm-6">
+                                            <div class="mu-pricing-area">
+
+                                                <div class="mu-title-area">
+                                                    <h2 class="mu-title">Prizes &amp; Rewards</h2>
+                                                    <p>We have loads of prizes and rewards for you.</p>
+                                                </div>
+
+                                                
+
+                                                <div class="mu-pricing-conten">
+                                                    <div class="row" style="align-self: center;">
+                                                        <div class="col-md-6">
+                                                            <div class="mu-single-price">
+
+                                                                <div class="mu-single-price-head">
+                                                                    <img src="img/rupee.png" style="height: 150px;" alt="Wolfram" class="img-fluid">
+                                                                </div>
+                                                                <h3 class="mu-price-title"><span style="color:#222; font-weight:600;">₹3000</span></h3>
+                                                                <h4 class="text-center"></h4>
+                                                                <ul>
+                                                                    <li class="text-center">Total Cash prize of ₹3000.</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="mu-single-price">
+                                                                <div class="mu-single-price-head">
+                                                                    <img src="img/trophy.jpg" style="height: 150px;" alt="Wolfram" class="img-fluid">
+                                                                </div>
+                                                                <h3 class="mu-price-title"><span style="color:#222; font-weight:600;">Trophies</span></h3>
+                                                                <h4 class="text-center"></h4>
+                                                                <ul>
+                                                                    <li class="text-center">Trophies for top three teams.</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div> 
+                    </div>
+            </section>
+            <section class="text-center space--xs heading-BMU" id="JudgesHeading">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 col-lg-8">
+                                <h2>Judges and Mentors</h2>
+                                <h4>Industry Experts</h4>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--<section class="text-center space--xxs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="feature feature-8 judgesHack"> 
+                                    <h3>Industry Experts</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>-->
+            <section class="text-center space--xs heading-BMU ourpartners_id" id="OurPartners">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 col-lg-8">
+                                <h2>Our Partners</h2>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section id="ourpartners_id">
+                <div class="container">
+                        <div class="row">
+                            <div class="col-md-2 partnerContainer">
+                                <div class="feature feature-1 text-center Rhover">
+                                    <img alt="Image" src="img/github.png">
+                                </div>
+                            </div>
+                            <div class="col-md-2 partnerContainer">
+                                <div class="feature feature-1 text-center Rhover">
+                                    <img alt="Image" src="img/balsamiq.png">
+                                </div>
+                            </div>
+                            <div class="col-md-2 partnerContainer">
+                                <div class="feature feature-1 text-center Rhover"> <img alt="Image" src="images/sponsors/Ashtavinayak.PNG">
+                                </div>
+                            </div>
+                            <div class="col-md-2 partnerContainer">
+                                <div class="feature feature-1 text-center Rhover"> <img alt="Image" src="images/sponsors/BelgiumWaffle.PNG">
+                                </div>
+                            </div>
+                            <div class="col-md-2 partnerContainer">
+                                <div class="feature feature-1 text-center Rhover"> <img alt="Image" src="images/sponsors/Box8.PNG">
+                                </div>
+                            </div>
+                            <div class="col-md-2 partnerContainer">
+                                <div class="feature feature-1 text-center Rhover"> <img alt="Image" src="images/sponsors/Chaayos.PNG">
+                                </div>
+                            </div>
+                            <div class="col-md-2 partnerContainer">
+                                <div class="feature feature-1 text-center Rhover"> <img alt="Image" src="images/sponsors/FunCity.PNG">
+                                </div>
+                            </div>
+                            <div class="col-md-2 partnerContainer">
+                                <div class="feature feature-1 text-center Rhover">
+                                    <a target="_blank" href="http://bit.ly/2FIHxoS"><img alt="Image" src="images/sponsors/Jamboree.PNG"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-2 partnerContainer">
+                                <div class="feature feature-1 text-center Rhover">
+                                    <img alt="Image" src="images/sponsors/KFC.PNG">
+                                </div>
+                            </div>
+                            <div class="col-md-2 partnerContainer">
+                                <div class="feature feature-1 text-center Rhover"> <img alt="Image" src="images/sponsors/MAAD.PNG">
+                                </div>
+                            </div>
+                            <div class="col-md-2 partnerContainer">
+                                <div class="feature feature-1 text-center Rhover"> <img alt="Image" src="images/sponsors/Onshore.PNG">
+                                </div>
+                            </div>
+                            <div class="col-md-2 partnerContainer">
+                                <div class="feature feature-1 text-center Rhover"> <img alt="Image" src="images/sponsors/MAS Industries.PNG">
+                                </div>
+                            </div>
+                            <div class="col-md-2 partnerContainer">
+                                <div class="feature feature-1 text-center Rhover"> <img alt="Image" src="images/sponsors/MOD.PNG">
+                                </div>
+                            </div>
+                            <div class="col-md-2 partnerContainer">
+                                <div class="feature feature-1 text-center Rhover">
+                                    <img alt="Image" src="images/sponsors/ThyssenKrupp.PNG">
+                                </div>
+                            </div>
+                            <div class="col-md-2 partnerContainer">
+                                <div class="feature feature-1 text-center Rhover"> <img alt="Image" src="images/sponsors/nirmiti group.PNG">
+                                </div>
+                            </div>
+                            <div class="col-md-2 partnerContainer">
+                                <div class="feature feature-1 text-center Rhover"> <img alt="Image" src="images/sponsors/PROGATE.PNG">
+                                </div>
+                            </div>
+                            <div class="col-md-2 partnerContainer">
+                                <div class="feature feature-1 text-center Rhover"> <img alt="Image" src="images/sponsors/Rotary Deonar.PNG">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="text-center space--xs heading-BMU" id="ourTeam">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 col-lg-8">
+                                <h2>Organising Committee</h2>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <center>
+                <section class="text-center space--xxs" style="width: 75%;align-self: center;">
+                    
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div>
+                                    <img src="images/team/Prashant_sir.png" style=" height: 150px;width: 150px" class="img-circle">
+                                    <div class="feature feature-8 judgesHack">
+                                    <h5>Prashant Kanade</h5> <span>Professor </span>
+                                </div></div>
+                            </div> 
+                            <div class="col-md-4">
+                                <div>
+                                    <img src="images/team/Priya_mam.png" style="height: 150px;width: 150px" class="img-circle">
+                                    <div class="feature feature-8 judgesHack">
+                                    <h5>Priya R.L.</h5> <span> Professor </span></div> </div>
+                            </div> 
+                            <div class="col-md-4">
+                                <div>
+                                    <img src="images/team/Richard_sir.png" style="height: 150px;width: 150px" class="img-circle">
+                                    <div class="feature feature-8 judgesHack">
+                                    <h5>Richard Joseph</h5> <span> Professor </span></div></div>
+                            </div>   
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                    <img src="images/team/Manas.jpg" style="height: 150px;width: 150px" class="img-circle">
+                                <div class="feature feature-8 judgesHack">
+                                    <h5>Manas Mangaonkar</h5> <span> Sponsorship </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div>
+                                    <img src="images/team/Kunal.jpg" style="height: 150px;width: 150px" class="img-circle">
+                                    <div class="feature feature-8 judgesHack">
+                                    <h5>Kunal Bathija</h5> <span> Web Designer</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div>
+                                        <img src="images/team/Gayatri.jpg" style="height: 150px;width: 150px" class="img-circle">
+                                        <div class="feature feature-8 judgesHack">
+                                    <h5>Gayatri Patil</h5> <span> Web Designer</span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                    <img src="images/team/Naren.JPG" style="height: 150px;width: 150px" class="img-circle">
+                                <div class="feature feature-8 judgesHack">
+                                    <h5>Naren Khatwani</h5> <span> Public Relations </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                    <img src="images/team/Hrithik.jpeg" style="height: 150px;width: 150px" class="img-circle">
+                                <div class="feature feature-8 judgesHack">
+                                    <h5>Hritvik Malvani</h5> <span> Design </div>
+                            </div>
+                            <div class="col-md-4">
+                                    <img src="images/team/Jai.JPG" style="height: 150px;width: 150px" class="img-circle">
+                                <div class="feature feature-8 judgesHack">
+                                    <h5>Jai Soneji</h5> <span> Design </span> </div>
+                            </div>
+                            <div class="col-md-4">
+                                    <img src="images/team/Smith.JPG" style="height: 150px;width: 150px" class="img-circle">
+                                <div class="feature feature-8 judgesHack">
+                                    <h5>Smith Gajjar</h5> <span> Design </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </section>
+                </center>
+                <section id="VESITLocation" style="padding-bottom:0px;">
+                    <div class="mu-venue-area">
+                        <div class="row">
+                            <div class="col-md-6" style="padding-right:0px !important;">
+                                <div class="mu-venue-map">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3995.6767507457416!2d72.88685776538789!3d19.045411557706785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8add9569a29%3A0xb7ad04bf9a389df7!2sVivekanand+Education+Society&#39;s+Institute+Of+Technology+Chembur+Mumbai!5e0!3m2!1sen!2sin!4v1549381669803" width="50%" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>  
+                                </div>
+                            </div>
+                            <div class="col-md-6 BGAddress">
+                                <div class="mu-venue-address">
+                                    <h2>VENUE
+                                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                    </h2>
+                                    <h3>Vivekanand Education Society's Institute of Technology</h3>
+                                    <h4>Collector Colony, Chembur East, Mumbai, Maharashtra</h4>
+                                    <p>Computer Engineering Department</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <footer class="text-center space--sm footer-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="type--fine-print"> <i class="fa fa-envelope">&emsp;</i>
+                                <a href="mailto:vesitcmpn.syrus@ves.ac.in" style="font-size: 15px;">vesitcmpn.syrus@ves.ac.in</a>
+                            </div>
+                            <div class="type--fine-print" style="padding:15px"> <i class="fa fa-phone">&emsp;</i>
+                                <span>+91 8879585434</span>
+                                <br>
+                                <i class="fa fa-phone">&emsp;</i><span>+91 9167093201</span>                            
+                            </div>
+                            <center>
+                            <div class="row" style="width: 25%;">
+                                <div class="col-md-4">
+                                    <a href="https://twitter.com/syrus_hackathon" target="_blank">
+                                    <img src="images/Twitter.png" style="height: 35px;width: 35px">
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="https://www.facebook.com/syrushackathon/" target="_blank">
+                                    <img src="images/Facebook.png" style="height: 35px;width: 35px">
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="https://www.instagram.com/syrushackathon_vesit/?hl=en" target="_blank">
+                                    <img src="images/Instagram.png" style="height: 35px;width: 35px">
+                                    </a>
+                                </div>
+                            </div>
+                            </center>
+                            <div> <span class="type--fine-print">Made with a cup of coffee</span></div>
+                            <div> <span class="type--fine-print" style="font-size: 15px;">© <span class="update-year">2019</span> <b>Syrus</b>
+                                    All
+                                    rights reserved</span> </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script src="js/anime.min.js"></script>
+
+    <script type="text/javascript">
+        setTimeout(function () {
+            $('.ml15').fadeOut('fast');
+        }, 2100);
+        $(document).ready(function () {
+            setTimeout(function() {
+                $(".preloader-text").css('display', 'inline-block');
+            },20);
+            $(".main-bodyContainer").hide();
+            // // Show the div after 5s
+            $(".main-bodyContainer").delay(1900).fadeIn(100);
+
+            $('#dismiss, .overlay, .menuItems').on('click', function () {
+                $('#sidebar').removeClass('active');
+                $('.overlay').removeClass('active');
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').addClass('active');
+                $('.overlay').addClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+
+    <script>
+        anime.timeline({ loop: true })
+            .add({
+                targets: '.ml15 .word',
+                scale: [20, 1],
+                opacity: [0, 1],
+                easing: "easeOutCirc",
+                duration: 1000,
+                delay: function (el, i) {
+                    return 500 * i;
+                }
+            }).add({
+                targets: '.ml15',
+                opacity: 0,
+                duration: 1000,
+                easing: "easeOutExpo",
+                delay: 500
+            });
+        $('#sidebar').mCustomScrollbar({
+            theme: 'minimal'
+        });
+    </script>
+    <script>
+        function myFunction() {
+            var x = document.getElementsByClassName("pastSponser_img");
+            console.log(x);
+            var i;
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "block";
+            }
+            document.getElementById("pastSponser_BTN").style.display = "none";
+            document.getElementById("pastSponser_BTN_hide").style.display = "block";
+        }
+        function hideSponser() {
+            var x = document.getElementsByClassName("pastSponser_img");
+            // console.log(x);
+            var i;
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            var x = document.getElementsByClassName("pastSponser_hide");
+            // console.log(x);
+            var i;
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "block";
+            }
+            document.getElementById("pastSponser_BTN").style.display = "block";
+            document.getElementById("pastSponser_BTN_hide").style.display = "none";
+        }   
+    </script>
+    <script src="js/jquery.countdown.js"></script>
+    <script>
+
+        $(function () {
+            var note = $('#countdown_space'),
+                ts = new Date("March 14, 2019 12:00:00"),
+                newYear = true;
+
+            if ((new Date()) > ts) {
+                ts = (new Date()).getTime() + 10 * 24 * 60 * 60 * 1000;
+                newYear = false;
+
+            }
+
+            $('#countdown').countdown({
+                timestamp: ts,
+                callback: function (days, hours, minutes, seconds) {
+                    var message = "";
+                    message += days + " day" + (days == 1 ? '' : 's') + ", ";
+                    message += hours + " hour" + (hours == 1 ? '' : 's') + " and ";
+                    message += minutes + " minute" + (minutes == 1 ? '' : 's');
+                    note.html(message);
+                }
+
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
